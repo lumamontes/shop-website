@@ -97,6 +97,8 @@ header nav ul .links {
 .info {
     margin: 0 auto;
     width: 50%;
+
+    line-height: 50px;
 }
 .info-txt {
     text-transform: uppercase;
@@ -118,6 +120,25 @@ header nav ul .links {
 .cart {
     width: 20%;
     text-align: center;
+}
+.cart .cart-pass {
+    margin: 0 auto;
+}
+.cart-pass {
+    background-color: rgb(211, 211, 211);
+
+    width: 80px;
+    height: 40px;
+    display: flex;    
+    align-items: center;
+}
+.cart-pass div {
+    width: 100%;
+    font-size: 13px;
+}
+.cart-pass div .fas {
+    margin: 0;
+    padding: 3px;
 }
 
 
