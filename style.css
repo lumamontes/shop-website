@@ -208,8 +208,13 @@ header nav ul .links {
 
 }
 
-
-
+footer {
+    width: 13%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 
 
